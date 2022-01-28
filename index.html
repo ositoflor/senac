@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Home</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <div class="container">
+        <a href="index.html" class="brand-logo"><img class="responsive-img" src="./img/senac_logo.png"></a>
+        <a href="index.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="link-navbar" href="index.html">Busca cep</a></li>
+          <li><a class="link-navbar" href="curriculo.html">Curriculo</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a class="link-navbar" href="index.html" >Busca CEP</a></li>
+    <li><a class="link-navbar" href="curriculo.html">Curriculo</a></li>
+  </ul>
+  <div class="container container-busca-cep">
+    <h1 class="title-cep">Busca CEP</h1>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input placeholder="55555-555" onmouseout="consultarCepAjax()" id="cep" type="text" class="validate">
+            <label for="first_name">CEP</label>
+          </div>
+          <div class="input-field col s6">
+            <input placeholder="   " id="logradouro" type="text" class="validate">
+            <label for="last_name" >Logradouro</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6">
+            <input placeholder="   " id="cidade" type="text" class="validate">
+            <label for="" >Cidade</label>
+          </div>
+          <div class="input-field col s6">
+            <input placeholder="   "id="uf" type="text" class="validate">
+            <label for="email">UF</label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="./js/materialize.js"></script>
+<script src="./js/script.js"></script>
+</html>

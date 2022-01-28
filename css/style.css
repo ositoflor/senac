@@ -1,0 +1,110 @@
+a img.responsive-img {
+  height: 50px;
+}
+
+.link-navbar {
+  color: #0000CD;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav-wrapper {
+  background-color: #E0FFFF;
+}
+
+a i.material-icons, .sidenav li>a {
+  color: #0000CD;
+}
+
+.title-cep {
+  padding: 5px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #6495ED;
+}
+
+.container-busca-cep {
+  margin-top: 50px;
+}
+
+.container-foto {
+  margin-top: 30px;
+}
+
+.img-perfil{
+  border-radius: 50%;
+}
+
+.container-pessoal, .work-info {
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.perfil {
+  margin-top: 10px;
+}
+
+.dados {
+  margin-bottom: 20px;
+}
+
+.title-pefil {
+  text-align: center;
+  color: #6495ED;
+  font-size: 26px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.info-perfil {
+  margin: 0;
+  display: flex;
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+  color: #6495ED;
+  margin-right: 10px;
+}
+
+.row .col.s8 {
+  margin-left: 10px;
+}
+
+.work-exp {
+  margin-left: 20px;
+}
+
+.title-work {
+  display: flex;
+  font-size: 26px;
+  justify-items: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6495ED;
+}
+
+.exp {
+  margin-left: 20px;
+}
+
+.exp h4 {
+  font-size: 20px;
+  color: #6495ED;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.exp p {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+div.col hr {
+  border-color: #6494ed3a;
+}
